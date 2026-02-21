@@ -10,7 +10,7 @@
                     <InputIcon class="pi pi-search" />
                     <InputText v-model="value1" placeholder="Search users..." />
                 </IconField>
-                <Button label="Add User" icon="pi pi-plus" class="p-button-success"></Button>
+                 <ComUserAdd />
             </div>
         </div>
         <div>
@@ -37,6 +37,8 @@
 
 <script setup>
 import {ref} from 'vue'
+
+import ComUserAdd from '@/View/User/components/ComUserAdd.vue'
 
 const users = ref([
      {

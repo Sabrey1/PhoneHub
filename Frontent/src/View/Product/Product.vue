@@ -10,7 +10,7 @@
                     <InputIcon class="pi pi-search" />
                     <InputText v-model="value1" placeholder="Search product..." />
                 </IconField>
-                <Button label="Add Product" icon="pi pi-plus" class="p-button-success"></Button>
+                <ComProductAdd />
             </div>
         </div>
         <div>
@@ -37,6 +37,8 @@
 
 <script setup>
 import {ref} from 'vue'
+
+import ComProductAdd from "@/View/Product/components/ComProductAdd.vue"
 
 const users = ref([
      {

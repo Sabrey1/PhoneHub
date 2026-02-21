@@ -10,7 +10,7 @@
                     <InputIcon class="pi pi-search" />
                     <InputText v-model="value1" placeholder="Search category..." />
                 </IconField>
-                <Button label="Add Category" icon="pi pi-plus" class="p-button-success"></Button>
+                <ComCategoryAdd />
             </div>
         </div>
         <div>
@@ -37,6 +37,8 @@
 
 <script setup>
 import {ref} from 'vue'
+
+import ComCategoryAdd from "@/View/Category/components/ComCategoryAdd.vue"
 
 const users = ref([
      {

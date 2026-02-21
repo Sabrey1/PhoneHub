@@ -23,6 +23,10 @@ import IconField from 'primevue/iconfield';
 import InputIcon from 'primevue/inputicon';
 import InputText from 'primevue/inputtext';
 import Avatar from 'primevue/avatar';
+import Dialog from 'primevue/dialog';
+import Select from 'primevue/select';
+
+
 
 const app = createApp(App)
 app.use(PrimeVue, {
@@ -41,6 +45,8 @@ app.component('IconField', IconField);
 app.component('InputIcon', InputIcon);
 app.component('InputText', InputText);
 app.component('Avatar', Avatar);
+app.component('Dialog', Dialog);
+app.component('Select', Select);
 
 
 
