@@ -2,15 +2,15 @@
     <div>
         <div class="mb-3 flex justify-content-between align-items-center">
             <div>
-                <h1 class="m-0 p-0">Product</h1>
-                <p class="m-0 p-0">4 products</p>
+                <h1 class="m-0 p-0">Sale</h1>
+                <p class="m-0 p-0">4 sales</p>
             </div>
             <div class="flex gap-3">
                 <IconField>
                     <InputIcon class="pi pi-search" />
-                    <InputText v-model="value1" placeholder="Search product..." />
+                    <InputText v-model="value1" placeholder="Search sale..." />
                 </IconField>
-                <Button label="Add Product" icon="pi pi-plus" class="p-button-success"></Button>
+                <Button label="Add Sale" icon="pi pi-plus" class="p-button-success"></Button>
             </div>
         </div>
         <div>

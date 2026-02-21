@@ -15,7 +15,14 @@ import Button from "primevue/button"
 
 
 import SideBar from "@/Layouts/SideBar.vue"
+import VChart from 'vue-echarts'
 
+import DataTable from 'primevue/datatable';
+import Column from 'primevue/column';
+import IconField from 'primevue/iconfield';
+import InputIcon from 'primevue/inputicon';
+import InputText from 'primevue/inputtext';
+import Avatar from 'primevue/avatar';
 
 const app = createApp(App)
 app.use(PrimeVue, {
@@ -24,8 +31,16 @@ app.use(PrimeVue, {
     }
 });
 app.use(router) 
+app.component('v-chart', VChart)
+
 
 app.component('Button', Button);
+app.component('DataTable', DataTable);
+app.component('Column', Column);
+app.component('IconField', IconField);
+app.component('InputIcon', InputIcon);
+app.component('InputText', InputText);
+app.component('Avatar', Avatar);
 
 
 

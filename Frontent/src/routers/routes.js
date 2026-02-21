@@ -5,6 +5,8 @@ import Customer from "@/View/Customer/Customer.vue"
 import UserList from "@/View/User/UserList.vue"
 import CategoryList from "@/View/Category/CategoryList.vue"
 import Product from "@/View/Product/Product.vue"
+import Sale from "@/View/Sale/Sale.vue"
+import Payment from "@/View/Payment/Payment.vue"
 
 const routes = [
   {
@@ -28,9 +30,19 @@ const routes = [
     component: CategoryList
   },
   {
-    path: '/poduct',
+    path: '/product',
     name: 'Product',
     component: Product
+  },
+  {
+    path: '/sale',
+    name: 'Sale',
+    component: Sale
+  },
+  {
+    path: '/payment',
+    name: 'Payment',
+    component: Payment
   },
    
 ]
