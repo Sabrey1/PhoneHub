@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@primeuix/themes": "^2.0.3",
+    "axios": "^1.13.5",
     "dayjs": "^1.11.19",
     "echarts": "^6.0.0",
     "primeflex": "^4.0.0",
