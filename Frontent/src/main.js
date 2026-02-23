@@ -6,13 +6,10 @@ import Aura from '@primeuix/themes/aura';
 import router from './routers/routes.js'
 
 import '/node_modules/primeflex/primeflex.css'
-
-
 import 'primeicons/primeicons.css'
 
 // import from primevue
 import Button from "primevue/button"
-
 
 import SideBar from "@/Layouts/SideBar.vue"
 import VChart from 'vue-echarts'
